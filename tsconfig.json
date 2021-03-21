@@ -1,12 +1,17 @@
 {
   "compilerOptions": {
-    "target": "es6",
-    "outDir": "dist",
+    "target": "es5",
+    "outDir": "./dist",
+    "strict": true,
     "module": "commonjs",
     "isolatedModules": true,
     "declaration": true
   },
   "include": [
     "src"
+  ],
+  "exclude": [
+    "node_modules",
+    "**/__tests__/*"
   ]
 }
