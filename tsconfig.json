@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "outDir": "dist",
+    "module": "commonjs",
+    "isolatedModules": true,
+    "declaration": true
+  },
+  "include": [
+    "src"
+  ]
+}
