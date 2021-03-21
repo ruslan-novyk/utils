@@ -2,7 +2,6 @@
   "compilerOptions": {
     "target": "es5",
     "outDir": "./dist",
-    "strict": true,
     "module": "commonjs",
     "isolatedModules": true,
     "declaration": true
